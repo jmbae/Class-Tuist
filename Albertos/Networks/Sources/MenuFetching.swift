@@ -6,6 +6,7 @@
 //
 
 import Combine
+import Network
 
 protocol MenuFetching {
     func fetchMenu() -> AnyPublisher<[MenuItem], Error>

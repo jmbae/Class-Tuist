@@ -21,7 +21,11 @@ let project = Project(
             dependencies: [
                 .project(target: "HippoPayments",
                          path: .path("HippoPayments"),
-                         condition: .none)]
+                         condition: .none),
+                .project(target: "Networks",
+                         path: .path("Networks"),
+                         condition: .none)
+            ]
         ),
         .target(
             name: "AlbertosTests",
