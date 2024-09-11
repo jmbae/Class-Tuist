@@ -18,7 +18,10 @@ let project = Project(
             ),
             sources: ["Albertos/Sources/**"],
             resources: ["Albertos/Resources/**"],
-            dependencies: []
+            dependencies: [
+                .project(target: "HippoPayments",
+                         path: .path("HippoPayments"),
+                         condition: .none)]
         ),
         .target(
             name: "AlbertosTests",
