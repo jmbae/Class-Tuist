@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Networks
 
 @main
 struct AlbertosApp: App {

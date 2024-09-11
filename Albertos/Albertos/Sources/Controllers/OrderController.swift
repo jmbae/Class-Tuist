@@ -5,6 +5,7 @@
 //  Created by Jungman Bae on 7/12/24.
 //
 import Combine
+import Core
 
 class OrderController: ObservableObject {
 

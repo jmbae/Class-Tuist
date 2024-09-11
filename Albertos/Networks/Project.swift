@@ -9,7 +9,11 @@ let project = Project(
                 bundleId: "kr.co.codegrove.Albertos.Networks",
                 infoPlist: .default,
                 sources: ["Sources/**"],
-                dependencies: []
+                dependencies: [
+                    .project(target: "Core",
+                             path: .path("../Core"),
+                             condition: .none),
+                ]
                )
     ]
 )

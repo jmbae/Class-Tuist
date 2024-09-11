@@ -4,6 +4,7 @@
 //
 //  Created by Jungman Bae on 7/11/24.
 //
+import Core
 
 extension MenuRow {
     struct ViewModel {

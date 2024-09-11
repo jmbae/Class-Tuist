@@ -1,5 +1,6 @@
 import Combine
 import HippoPayments
+import Core
 
 extension HippoPaymentsProcessor: PaymentProcessing {
 

@@ -7,7 +7,8 @@
 
 import Combine
 import Network
+import Core
 
-protocol MenuFetching {
+public protocol MenuFetching {
     func fetchMenu() -> AnyPublisher<[MenuItem], Error>
 }

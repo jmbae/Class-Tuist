@@ -1,5 +1,6 @@
 import Combine
 import HippoPayments
+import Core
 
 // Wraps `HippoPaymentsProcessors` into a type in our domain so we don't have to `import` the
 // framework in every SwiftUI view that uses. This is a workaround to the fact that

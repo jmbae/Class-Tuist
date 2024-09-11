@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import Core
+import Networks
 
 struct MenuList: View {
     @EnvironmentObject var orderController: OrderController

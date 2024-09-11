@@ -6,6 +6,8 @@
 //
 import Foundation
 import Combine
+import Core
+import Networks
 
 extension MenuList {
     class ViewModel: ObservableObject {

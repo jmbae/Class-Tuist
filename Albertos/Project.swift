@@ -24,6 +24,9 @@ let project = Project(
                          condition: .none),
                 .project(target: "Networks",
                          path: .path("Networks"),
+                         condition: .none),
+                .project(target: "Core",
+                         path: .path("Core"),
                          condition: .none)
             ]
         ),
