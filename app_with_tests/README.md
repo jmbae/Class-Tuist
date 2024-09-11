@@ -11,17 +11,20 @@
 ## Tuist 사용 방법
 
 1. Tuist 설치 (아직 설치하지 않은 경우):
-   ```
+
+   ```bash
    bash <(curl -Ls https://install.tuist.io)
    ```
 
 2. 프로젝트 생성:
-   ```
+
+   ```bash
    tuist generate
    ```
 
 3. Xcode에서 프로젝트 열기:
-   ```
+
+   ```bash
    tuist edit
    ```
 
@@ -33,7 +36,7 @@
 
 ## 테스트 실행
 
-```
+```bash
 tuist test
 ```
 
